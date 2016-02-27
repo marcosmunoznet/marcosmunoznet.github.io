@@ -3,10 +3,10 @@
   <channel>
     <title>Marcos Munoz</title>
     <description>Marcos Munoz. Um blog sobre criatividade, inovação e empreendedorismo.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Feb 2016 17:24:24 -0300</pubDate>
-    <lastBuildDate>Sat, 27 Feb 2016 17:24:24 -0300</lastBuildDate>
+    <link>http://marcosmunoz.net/</link>
+    <atom:link href="http://marcosmunoz.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Feb 2016 19:47:58 -0300</pubDate>
+    <lastBuildDate>Sat, 27 Feb 2016 19:47:58 -0300</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -48,8 +48,8 @@
 &lt;p&gt;&lt;strong&gt;Imagens:&lt;/strong&gt; Internet&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 Feb 2016 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/os-misterios-da-geracao-y-parte-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/os-misterios-da-geracao-y-parte-1/</guid>
+        <link>http://marcosmunoz.net/os-misterios-da-geracao-y-parte-1/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/os-misterios-da-geracao-y-parte-1/</guid>
         
         <category>Geração Y</category>
         
@@ -124,8 +124,8 @@ Todo indivíduo possui um presente, um passado e um futuro que está na mesa de 
 
 </description>
         <pubDate>Wed, 17 Feb 2016 01:00:00 -0200</pubDate>
-        <link>http://localhost:4000/5-coisas-para-aprender-com-suits/</link>
-        <guid isPermaLink="true">http://localhost:4000/5-coisas-para-aprender-com-suits/</guid>
+        <link>http://marcosmunoz.net/5-coisas-para-aprender-com-suits/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/5-coisas-para-aprender-com-suits/</guid>
         
         <category>Cultura</category>
         
@@ -215,8 +215,8 @@ MOORE, G. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainst
 
 </description>
         <pubDate>Wed, 03 Feb 2016 01:00:00 -0200</pubDate>
-        <link>http://localhost:4000/quem-paga-a-conta-da-inovacao/</link>
-        <guid isPermaLink="true">http://localhost:4000/quem-paga-a-conta-da-inovacao/</guid>
+        <link>http://marcosmunoz.net/quem-paga-a-conta-da-inovacao/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/quem-paga-a-conta-da-inovacao/</guid>
         
         <category>Inovação</category>
         
@@ -292,8 +292,8 @@ MOORE, G. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainst
 
 </description>
         <pubDate>Wed, 20 Jan 2016 01:00:00 -0200</pubDate>
-        <link>http://localhost:4000/como-criar-um-aplicativo-bilionario-uber/</link>
-        <guid isPermaLink="true">http://localhost:4000/como-criar-um-aplicativo-bilionario-uber/</guid>
+        <link>http://marcosmunoz.net/como-criar-um-aplicativo-bilionario-uber/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/como-criar-um-aplicativo-bilionario-uber/</guid>
         
         <category>Design Thinking</category>
         
@@ -324,8 +324,8 @@ MOORE, G. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainst
 
 </description>
         <pubDate>Fri, 15 Jan 2016 00:02:14 -0200</pubDate>
-        <link>http://localhost:4000/empreendedor-a-todo-vapor/</link>
-        <guid isPermaLink="true">http://localhost:4000/empreendedor-a-todo-vapor/</guid>
+        <link>http://marcosmunoz.net/empreendedor-a-todo-vapor/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/empreendedor-a-todo-vapor/</guid>
         
         <category>Entrevista</category>
         
@@ -369,8 +369,8 @@ MOORE, G. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainst
 
 </description>
         <pubDate>Tue, 12 Jan 2016 00:02:14 -0200</pubDate>
-        <link>http://localhost:4000/presenca-digital-fundamental/</link>
-        <guid isPermaLink="true">http://localhost:4000/presenca-digital-fundamental/</guid>
+        <link>http://marcosmunoz.net/presenca-digital-fundamental/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/presenca-digital-fundamental/</guid>
         
         <category>Presença Digital</category>
         
