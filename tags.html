@@ -1,0 +1,42 @@
+---
+layout: default
+title: "#Tags"
+permalink: /tags/index.html
+description: "Procure os assuntos pelas tags."
+---
+<div id="primary" class="content-area col-lg-9 col-md-8 col-sm-12 col-xs-12">
+   <main id="main" class="site-main" role="main">
+     <h1>TAGS</h1>
+      <div class="tags">
+      {% assign tags_list = site.tags %}
+        {% if tags_list.first[0] == null %}
+          {% for tag in tags_list %}
+              <a href="#{{ tag | slugify }}">{{ tag }}</a>
+          {% endfor %}
+        {% else %}
+          {% for tag in tags_list %}
+              <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+          {% endfor %}
+        {% endif %}
+      {% assign tags_list = nil %}
+      </div>
+
+      {% for tag in site.tags  %}
+          <h3 class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</h3>
+          <ul class="post-list">
+              {% assign pages_list = tag[1] %}
+              {% for post in pages_list reversed %}
+                  {% if post.title != null %}
+                  {% if group == null or group == post.group %}
+                  <li>
+                    <img alt="{{ post.title }}" src="{{ site.featured_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" class="avatar" style="border-radius: 5%;" width='150' />
+                    <a href="{{ post.url }}" class="tags-link">{{ post.title }}</a></li>
+                  {% endif %}
+                  {% endif %}
+              {% endfor %}
+              {% assign pages_list = nil %}
+              {% assign group = nil %}
+          </ul>
+      {% endfor %}
+</main>
+</div>

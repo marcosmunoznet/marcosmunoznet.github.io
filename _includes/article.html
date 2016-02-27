@@ -1,0 +1,37 @@
+<article class="smr-post has-post-thumbnail">
+  <div class="entry-header-wrapper">
+    <figure class="post-thumbnail">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <img width="805" src="{{ site.featured_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" alt="{{ post.title }}" sizes="(max-width: 805px) 100vw, 805px" />
+      </a>
+    </figure>
+    <header class="entry-header">
+      <ul class="post-categories">
+        {% if post.categories-pretty %}
+        {% for pretty in post.categories-pretty %}
+        {% for category in post.categories %}
+        {% if pretty contains category %}
+        <li><a href="/category/{{ category }}/" rel="category tag">{{ pretty | remove_first: category  }}</a></li>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% else %}
+        {% for category in post.categories %}
+        <li><a href="/category/{{ category }}/" rel="category tag">{{ category }}</a></li>
+        {% endfor %}
+        {% endif %}
+      </ul>
+      <h2 class="entry-title"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark"><span class="entry-title-primary">{{ post.title }}</span> <span class="entry-subtitle">{{ post.subtitle }}</span></a></h2>
+      <div class="entry-meta">
+        <div class="meta-item"><i class="fa fa-calendar"></i><span class="updated">{% include post-date.html %}</span></div>
+        <div class="meta-item"><i class="fa fa-user"></i><span class="vcard author"><span class="fn">por Marcos Munoz</span></span></div>
+        <div class="meta-item"><i class="fa fa-comments-o"></i><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread"><span class="dsq-postid" data-dsqidentifier="679 http://marcosmunoz.net/?p=679">Adicionar comentário…</span></a></div>
+      </div>
+    </header>
+  </div>
+  <div class="entry-content">
+    <p>{{ post.excerpt | strip_html | truncate: 400 }}
+    </p>
+    <p><a href="{{ post.url | prepend: site.baseurl }}" class="more-link">Continuar lendo</a></p>
+  </div>
+</article>

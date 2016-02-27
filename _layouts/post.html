@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div id="primary" class="content-area col-lg-9 col-md-8 col-sm-12 col-xs-12">
+   <main id="main" class="site-main" role="main">
+     <article class="smr-post has-post-thumbnail">
+       <div class="entry-header-wrapper">
+         <figure class="post-thumbnail">
+           <a href="{{ page.url | prepend: site.baseurl }}">
+             <img width="805" src="{{ site.featured_image }}{{ page.url | prepend: site.baseurl | slugify }}{{ page.image-type}}" alt="{{ page.title }}"/>
+           </a>
+         </figure>
+         <header class="entry-header">
+           <ul class="post-categories">
+             {% if page.categories-slug %}
+             {% for category in page.categories %}
+             {% for slug in page.categories-slug %}
+             {% if slug contains category %}
+             <li><a href="/category/{{ slug | remove_first: category }}/" rel="category tag">{{ category }}</a></li>
+             {% endif %}
+             {% endfor %}
+             {% endfor %}
+             {% else %}
+             {% for category in page.categories %}
+             <li><a href="/category/{{ category }}/" rel="category tag">{{ category }}</a></li>
+             {% endfor %}
+             {% endif %}
+           </ul>
+           <h1 class="entry-title">
+             <a href="" rel="bookmark">
+               <span class="entry-title-primary">{{ page.title }}</span>
+               <span class="entry-subtitle">{{ page.subtitle }}</span>
+             </a>
+           </h1>
+           <div class="entry-meta">
+             <div class="meta-item"><i class="fa fa-calendar"></i><span class="updated">{% include page-date.html %}</span></div>
+             <div class="meta-item"><i class="fa fa-user"></i><span class="vcard author"><span class="fn">por Marcos Munoz</span></span></div>
+             <div class="meta-item"><i class="fa fa-comments-o"></i><a href="{{ page.url | prepend: site.baseurl }}#disqus_thread">Adicionar comentário…</span></a></div>
+           </div>
+         </header>
+       </div>
+       <div class="entry-content">
+         {% include share.html %}
+
+         {{ content }}
+       </div>
+       <footer class="entry-footer">
+         <div class="meta-tags">
+           {% for tag in page.tags %}
+           <a href="/tags/#{{tag | slugify }}" rel="tag">{{ tag }}</a>
+           {% endfor %}
+         </div>
+         {% include related-posts.html %}
+         {% include author.html %}
+       </footer>
+       {% include comments.html %}
+    </article>
+  </main>
+</div>

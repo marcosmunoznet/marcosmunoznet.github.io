@@ -1,0 +1,37 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Marcos Munoz
+subtitle: Criatividade | Inovação | Empreendedorismo
+description: "Marcos Munoz. Um blog sobre criatividade, inovação e empreendedorismo."
+url: "http://localhost:4000"
+locale: pt_br
+# Author Settings
+author:
+    name: Marcos Munoz
+    img: /assets/img/logo.png # Imagem do Autor
+    blog: http://marcosmunoz.net
+    email: marcos@iluvsolutions.com
+    twitter: marcosmunoznet
+    facebook: marcosmunoznet
+    youtube: marcosmunoznetbr
+    plus: marcosmunoznetbr
+    linkedin: marcosmunoznet
+    github:  marcosmunoznet
+    blog: marcosmunoznet
+    bio: Consultor de TI, empreendedor e design thinker. Formado em Sistemas de Informação pela FIAP e MBA em Gestão de Empresas e Marketing pela Business School São Paulo.
+
+# Build settings
+markdown: kramdown # Estilo do Markdown
+permalink: /:title/ # Configuração dos links do blog
+css_folder:  "/assets/css" # Caminho dos arquivos css
+js_folder:  "/assets/js" # Caminho dos arquivos js
+featured_image:  "/assets/img/posts/featured/" # Caminho das imagens
+thumb_image:  "/assets/img/posts/thumb/" # Caminho das imagens
+sass:
+    style: compressed # Configuração dos arquivos css gerados pelo sass, compressed gera o css minificado
