@@ -5830,7 +5830,8 @@ a:active {
     width: 70%;
     margin: 0 auto;
     position: relative;
-    text-align: center
+    text-align: center;
+    float: left;
 }
 .main-navigation>ul {
     list-style: none;
@@ -6261,12 +6262,26 @@ a:active {
 span.entry-title-primary {
     text-shadow: #000 1px 1px;
 }
+@media (max-width: 450px) {
+    span.entry-title-primary {
+        color: #000;
+        text-shadow: #fff 0 0;
+        font-weight: normal;
+    }
+}
 span.entry-subtitle {
     display: block;
     text-shadow: #000 1px 1px;
     font-size: 23px;
     text-transform: none;
     line-height: 25px;
+}
+@media (max-width: 450px) {
+    span.entry-subtitle {
+        color: #000;
+        text-shadow: #fff 0 0;
+        font-weight: normal;
+    }
 }
 .page-title {
     font-family: "PT Sans Narrow", sans-serif;
@@ -6379,6 +6394,13 @@ span.entry-subtitle {
 .has-post-thumbnail .entry-meta span,
 .has-post-thumbnail .entry-meta a {
     color: #FFF
+}
+@media (max-width: 450px) {
+    .has-post-thumbnail .entry-meta .meta-item,
+    .has-post-thumbnail .entry-meta span,
+    .has-post-thumbnail .entry-meta a {
+        color: #000;
+    }
 }
 .post-thumbnail {
     z-index: 1;
@@ -6754,6 +6776,11 @@ span.entry-subtitle {
     text-transform: uppercase;
     line-height: 32px;
     margin-top: -8px
+}
+@media(max-width:450px) {
+    .widget-title {
+        margin-top: 15px
+    }
 }
 .widget-title a {
     font-family: "PT Sans Narrow", sans-serif;
@@ -8236,11 +8263,11 @@ screen and (max-height: 300px) {
     }
 }
 @media(max-width:991px) {
-    .smr-hamburger, .smr-resp-separator {
+    .smr-resp-separator {
         display: block
     }
-    .site-navigation-wrapper {
-        display: none
+    .smr-nav-social {
+        display: block
     }
     .site-header .site-branding {
         padding: 20px 0 20px;
@@ -8538,6 +8565,9 @@ screen and (max-height: 300px) {
         font-size: 14px;
         line-height: 22px
     }
+    .site-header  {
+        margin-bottom: 45px;
+    }
     .site-header .site-title {
         max-width: 220px;
         display: inline-block
@@ -8619,6 +8649,17 @@ screen and (max-height: 300px) {
   text-transform: uppercase;
   font-family: "PT Sans Narrow",sans-serif;
   margin-bottom: 20px;
+  padding: 0 80px;
+}
+@media(max-width:1199px) {
+  .inline-btn{
+    padding: 0 30px;
+  }
+}
+@media(max-width:450px) {
+  .inline-btn{
+    padding: 0;
+  }
 }
 .inline-btn a{
   border: 2px solid rgba(16,19,36,0.69);
@@ -8630,6 +8671,10 @@ screen and (max-height: 300px) {
   border-radius: 20px;
   padding: 5px 10px;
   color: #ff5601;
+}
+.inline-btn .btn-link {
+  float: left;
+  margin: 0 4px 10px 0;
 }
 .tags{
   margin-bottom: 40px;
