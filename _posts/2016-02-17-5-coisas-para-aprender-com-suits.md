@@ -17,7 +17,7 @@ Talvez o enredo da série não seja atraente para alguns de início, mas garanto
 
 
 
-###1 – A CONFIANÇA PODE SER QUEBRADA A QUALQUER MOMENTO
+### 1 – A CONFIANÇA PODE SER QUEBRADA A QUALQUER MOMENTO
 Toda relação, seja ela profissional ou pessoal, é baseada em confiança. Jeffrey Gitomer cita em A Bíblia de Vendas a importância da confiança na hora de fechar um negócio. Ultrapassar a barreira da confiança talvez seja a tarefa mais difícil quando iniciamos uma relação comercial. Especialistas em técnicas de vendas listam ferramentas e receitas para criar o tão sonhado vínculo que lhe permitirá fechar aquela proposta, mas a verdade é que não existe técnica 100% eficaz quando tratamos de pessoas.
 
 Receitas para gerar confiança só seriam verdade se todas as variáveis que influenciaram na criação do caráter dos envolvidos fossem consideradas, o que, sabemos, não é possível. Logo, a melhor maneira de estreitar laços é o velho e bom olho-no-olho.
@@ -26,7 +26,7 @@ Em Suits, os relacionamentos são baseados na confiança e na quebra dela. As pe
 
 
 
-###2 – LIDERAR NÃO É SÓ DELEGAR
+### 2 – LIDERAR NÃO É SÓ DELEGAR
 Algo a mais é necessário para que as pessoas o considerem um bom líder, não basta saber delegar. As pessoas o valorizam pelas suas atitudes e o quão fiel você é aos seus princípios e à cultura da empresa. Não adianta pregar algo e esquecer da pregação no primeiro momento de dificuldade. Harvey Specter, por exemplo, é fiel à lealdade. Todos na corporação, e fora dela, sabem que ele jamais seria contrário a este valor.
 
 Specter também é um bom comunicador. Quando algo está fora de controle, por exemplo, ele comunica de forma clara e objetiva aos envolvidos qual é a situação, quais ações serão necessárias e quais decisões serão tomadas. Desta forma, mesmo em situações de crise, é possível manter a confiança do time.
@@ -37,7 +37,7 @@ Outro ponto de suma importância para o bom líder é saber reconhecer. Os colab
 ![5 coisas para aprender com Suits](/assets/img/posts/content/suits-mike-harvey.jpeg)
 
 
-###3 – COMUNICAR É IMPORTANTE
+### 3 – COMUNICAR É IMPORTANTE
 Não é obrigação dos colaboradores saber o que se passa na empresa, cabe a empresa disseminar de forma transparente a sua cultura e seus valores. A comunicação eficiente fará com que os colaboradores estejam mais alinhados com as expectativas da empresa e vice-versa.
 
 Um ambiente onde a cultura é propagada de forma homogênea permitirá que todos tenham objetivos em comum. Já em ambientes onde as lideranças propagam seus próprios ideais e formas de trabalhar teremos times concorrendo entre si, falta de entendimento, objetivos conflitantes, desconforto e pessoas desmotivadas. No dia-a-dia é difícil identificarmos problemas de comunicação pois todos estão acostumados ao ambiente.
@@ -46,7 +46,7 @@ Na Pearson Hardman a cultura da alta performance é muito disseminada. Todos tê
 
 
 
-###4 – DEIXE CLARO SEUS OBJETIVOS
+### 4 – DEIXE CLARO SEUS OBJETIVOS
 Harvey deixa claro, quase que diariamente, para sua gestora Jessica Pearson ([Gina Torres][gina]) o seu objetivo que é se tornar sócio da empresa. No Brasil não temos o costume de sermos diretos com nossos superiores no ambiente de trabalho, principalmente quando se trata de aspirações na carreira. Podíamos ir fundo neste comportamento e nos justificarmos utilizando nossa história de exploração colonial e bases religiosas que formaram nossa sociedade atual, mas podemos deixar esse tema específico para outro momento.
 
 Por agora, quero ressaltar a importância de informar a empresa quais são seus objetivos pessoais e se estes estão alinhados com as expectativas da empresa. Talvez esse seja um fator fundamental para a automotivação (ou não), mas expondo seus interesses pessoais você terá informações importantes sobre se este é o local onde você quer de fato trabalhar. Em contrapartida, a empresa precisa ser transparente com o colaborador , mensurar resultados, planejar caminhos para que este alcance seus objetivos e, principalmente, cumprir os acordos quando as metas forem alcançadas.
@@ -55,7 +55,7 @@ Quando não deixamos claro nossas aspirações, a empresa traçará um caminho q
 
 
 
-###5 – TUDO É PESSOAL
+### 5 – TUDO É PESSOAL
 Qualquer que seja sua área de atuação, você precisará, obrigatoriamente, saber lidar com pessoas.
 
 Negócios são feitos por pessoas. Saiba entender as pessoas e fará bons negócios.

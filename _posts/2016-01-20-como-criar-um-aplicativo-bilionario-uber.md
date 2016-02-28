@@ -36,7 +36,7 @@ Me contou ainda que antes de me encontrar havia acabado de atender a uma solicit
 
 Neste momento cheguei ao meu destino. O valor da carona ficou em R$ 20,00, pouco mais do que o estimado. Não precisei usar dinheiro ou cartão pois o aplicativo fez isso por mim. Utilizou os dados do cartão que eu havia cadastrado para fazer a cobrança online. Me despedi do motorista, deixei o carro, e entrei na loja de pneus.
 
-###NÃO É SÓ UM APLICATIVO
+### NÃO É SÓ UM APLICATIVO
 O Uber nasceu em 2009 quando seus fundadores Garrett Camp e  Travis Kalanick saiam de uma conferência em Paris chamada Le Web e não encontravam uma forma de retornar ao hotel. Garrett Camp e  Travis Kalanick já haviam criado uma empresa de tecnologia de sucesso chamada StumbleUpon e decidiram então criar algo novo que conectasse motoristas a passageiros.
 
 Assim como outros produtos de sucesso, o Uber foi criado para atender a uma necessidade do homem moderno, se locomover de forma eficiente, confortável e segura. Este pode ser um pequeno detalhe, mas se encaixa perfeitamente ao novo cenário de inovação que tem como principal característica o olhar centrado no ser humano.
@@ -49,7 +49,7 @@ Esses dois atributos parecem não fazer sentido nesse momento, mas se analisarmo
 
 Na era do Marketing 3.0, os novos consumidores não priorizam obrigatoriamente o preço na hora de escolher um produto ou serviço. Eles querem conhecer as empresas que fornecem seus produtos e serviços preferidos e quão alinhadas estas estão aos seu valores pessoais. O relacionamento próximo e verdadeiro é um grande diferencial na tomada de decisão do consumidor. E, por maiores que sejam as dificuldades enfrentadas pelo Uber ao redor do mundo, a empresa se mantém fiel aos seus valores e mantém seu posicionamento. Essa estratégia transmite a confiança necessária que o consumidor precisa.
 
-###AS PESSOAS AMAM O UBER
+### AS PESSOAS AMAM O UBER
 O Uber é um conjunto de experiências iniciada por um aplicativo que foi idealizado e desenvolvido com o olhar centrado no ser humano. As pessoas elogiam o serviço e o defendem pois se identificam com seus valores e com a cultura disseminada pela empresa. A forma do Uber se posicionar como uma opção para a mobilidade urbana faz com que cada usuário ou até mesmo quem nunca usou o serviço o proteja como se protegesse seu direito de ter escolhas, a sua liberdade.
 
 Consiga esse nível de envolvimento com seus usuários e você terá um aplicativo bilionário.

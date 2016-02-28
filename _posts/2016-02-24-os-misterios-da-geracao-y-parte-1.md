@@ -20,7 +20,7 @@ A sociedade mudou drasticamente desde que a geração Y veio ao mundo, e antes d
 
 
 
-###AS MUDANÇAS
+### AS MUDANÇAS
 Não existe um consenso sobre a faixa etária da geração Y, também conhecida como geração do milênio ou geração da internet. Alguns autores entendem serem parte desta geração pessoas nascidas entre meados da década de 1970 e meados da década de 1990, outros estabelecem a faixa entre 1977 e 1997. Acredito que fatores regionais, culturais e de ambiente dificultam a definição de uma faixa com precisão.
 
 Não quero entrar profundamente nos avanços econômicos e sociais que facilitaram a vida da geração do milênio diante de seus antecessores baby boomers e geração X. Pretendo ser mais prático para destacar alguns pontos importantes para o ambiente de trabalho.
@@ -37,7 +37,7 @@ Por outro lado, a busca pelos melhores resultados e a facilidade em obter inform
 
 
 
-###A INFORMAÇÃO E O MERCADO DE TRABALHO
+### A INFORMAÇÃO E O MERCADO DE TRABALHO
 O período entre o início da década de 1980 e final da década de 1990 coincide com a popularização dos microcomputadores e explosão da internet. As pessoas começaram a ter acesso a informações que até então não estavam disponíveis. Com alguma dificuldade, talvez, era possível ter acesso a produtos e serviços importados, se comunicar com um número maior de pessoas e ler notícias internacionais em tempo real. Foi dentro deste contexto de facilidades no acesso à informação que a geração Y foi inserida no mercado de trabalho.
 
 A evolução tecnológica transformou o mercado de trabalho. Trabalhos braçais e repetitivos até então vividos pelas gerações anteriores passaram a ser substituídos pelas ferramentas computacionais que permitiram o surgimento de novas profissões. Os jovens que buscavam conhecer essas novas profissões e tecnologias corriam atrás de cursos especializados e universidades, mas saíam das salas de aula ávidos por inovação e para por em prática o que aprenderam e se depararam com um mercado de trabalho ainda não preparado para esse novo perfil profissional.

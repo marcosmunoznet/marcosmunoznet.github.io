@@ -38,7 +38,7 @@ Quando Hurley, Karim e Chen começaram o YouTube não sabiam como lucrariam com 
 
 
 
-###O ABISMO DE GEOFFREY MOORE
+### O ABISMO DE GEOFFREY MOORE
 Geoffrey Morre é escritor, palestrante e consultor com foco em inovação disruptiva. Moore ajudou grandes empresas como a Microsoft, Salesforce e Intel a se tornarem empresas inovadoras. Em 1991, Moore se tornou notável após a publicação de seu livro Crossing de Chasm onde descreve o ciclo de venda de uma inovação.
 
 ![Crossing the Chasm](/assets/img/posts/content/chasm.png)
@@ -55,13 +55,13 @@ Moore divide o ciclo em 5 tipos de consumidores, os quais vemos abaixo:
 
 ***Laggards (Céticos):*** Os céticos pensam muitas vezes antes de comprar um produto inovador. Eles não acreditam que os produtos entreguem o que seus fabricantes prometem. Eles podem comprar seu produto, mas somente depois de se certificarem que sua empresa está muito bem estabelecida, terem indicações consistentes de amigos, parentes ou especialistas ou mesmo pelo produto estar substituindo uma tecnologia anterior.
 
-####THE BIG SCARY CHASM (O GRANDE E ASSUSTADOR ABISMO)
+#### THE BIG SCARY CHASM (O GRANDE E ASSUSTADOR ABISMO)
 
 Trata-se da distância entre dois mercados. Um mercado onde o consumidor é rápidos e quer desvendar os mistérios da inovação, descobrindo por si só seus benefícios e o mercado conservador, onde o empreendedor realiza seus ganhos financeiros.
 
 
 
-###ENTÃO, DE QUEM É A CONTA?
+### ENTÃO, DE QUEM É A CONTA?
 É indiscutível que o empreendedor é quem financia grande parte das ideias inovadoras e, na maioria das vezes, com recursos próprios. Vimos o caso do YouTube, onde seus criadores acreditaram em suas ideias antes mesmo de saber como torná-la rentável, mas pensando no ciclo de venda da inovação frente ao mercado descrito por Moore, é evidente a importância dos entusiastas e dos visionários no período inicial de comercialização da inovação.
 
 É de grande importância traçar estratégias de comunicação com esse público, pois quando os conservadores se interessarem em adquirir seu produto eles buscarão informação de pessoas que sejam referência em seu mercado e que tenham vivido experiências reais com o produto.
