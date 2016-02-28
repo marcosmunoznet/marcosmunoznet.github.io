@@ -27,7 +27,11 @@ author:
     bio: Consultor de TI, empreendedor e design thinker. Formado em Sistemas de Informação pela FIAP e MBA em Gestão de Empresas e Marketing pela Business School São Paulo.
 
 # Build settings
-markdown: kramdown # Estilo do Markdown
+markdown: kramdown
+kramdown:
+  input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
+  hard_wrap: false
+highlighter: rouge
 permalink: /:title/ # Configuração dos links do blog
 css_folder:  "/assets/css" # Caminho dos arquivos css
 js_folder:  "/assets/js" # Caminho dos arquivos js
