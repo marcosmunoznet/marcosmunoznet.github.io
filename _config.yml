@@ -8,9 +8,10 @@
 # Site settings
 title: Marcos Munoz
 subtitle: Criatividade | Inovação | Empreendedorismo
-description: "Marcos Munoz. Um blog sobre criatividade, inovação e empreendedorismo."
+description: "Um blog sobre criatividade, inovação e empreendedorismo."
 url: "http://marcosmunoz.net"
 locale: pt_br
+image: /assets/img/blog-logo.png
 # Author Settings
 author:
     name: Marcos Munoz
