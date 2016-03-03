@@ -72,7 +72,7 @@ Agora, o Facebook passará a mostrar de forma simples as reações das pessoas a
 
 Mark também poderá tirar proveito dessas informações para aumentar seus rendimentos com publicidade, elevando o CPC para publicações com interações positivas.
 
-Para finalizar, gostaria de ressaltar a dedicação do time de produtos do Facebook em conhecer e compreender seus usuários. Essa visão de negócio centrada no ser humano torna a interação do usuário mais estimulante, confortável e interessante.
+Para finalizar, gostaria de ressaltar a dedicação do time de produtos do Facebook em conhecer e compreender seus usuários. Essa visão de negócio centrada no ser humano torna a experiência do usuário mais estimulante, confortável e interessante.
 
 **Imagens:**
 Internet, GREATER GOOD SCIENCE CENTER/UNIVERSITY OF CALIFORNIA BERKELEY
