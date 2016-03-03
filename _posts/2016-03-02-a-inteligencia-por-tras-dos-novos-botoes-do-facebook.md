@@ -25,7 +25,7 @@ Expressar emoções através de um computador ou celular não é algo simples. Q
 
 Imagine receber agora em seu celular uma seguinte mensagem: "Não acredito que você fez isso!".
 
-Mesmo que você conheça a fundo o emissor, não é possível interpretar a emoção no momento do clique no botão 'Enviar' mas, se você estiver por dentro do assunto tratado, provavelmente conseguirá identificar alguma emoção na mensagem.
+Mesmo que você conheça a fundo o emissor, não é possível interpretar a emoção no momento do clique no botão 'Enviar', mas se você estiver por dentro do assunto tratado, provavelmente conseguirá identificar alguma emoção na mensagem.
 
 A comunicação se torna ainda mais complexa quando a única forma de transmitir a mensagem é binária.
 
@@ -52,7 +52,7 @@ Deixando as notícias, memes e bate-papo de lado, não podemos esquecer que o Fa
 
 O time de produtos do Facebook levou 1 ano para chegar às 5 opções definitivas do Reactions. Muita pesquisa com usuários, testes de usabilidade e auxílio de psicólogos renomados foram necessários para entender como as pessoas reagem ao ler e publicar em suas timelines.
 
-Dacher Keltner, 52 anos  (e não utiliza o Facebook),  é fundador e diretor da [University of California Berkeley’s Greater Good Science Center][university]. Keltner trabalhou em conjunto com as equipes de produtos do Facebook em diversos projetos onde foram necessários a experiência de um psicólogo especialista em comunicações social.
+Dacher Keltner, 52 anos  (e não utiliza o Facebook),  é fundador e diretor da [University of California Berkeley’s Greater Good Science Center][university]. Keltner trabalhou em conjunto com as equipes de produtos do Facebook em diversos projetos onde foi necessária a experiência de um psicólogo especialista em comunicações social.
 
 Sammi Krug, gerente de produtos do Facebook, foi quem atribuiu a Keltner seu primeiro desafio: Identificar uma forma única das pessoas de todo o mundo se expressarem. A equipe de Keltner identificou em pesquisas que a melhor forma de representar emoções globalmente seria utilizando rostos. Outros emoticons como balões e garrafas de cerveja brindando possuem significados diferentes em cada país. Somente coração fora compreendido internacionalmente como um símbolo do amor. Keltner e seu time começaram então a rascunhar um mapa de emoções humanas e emoticons. "É importante que os emoticons sejam cientificamente confiáveis e capturem as emoções que realmente se parecem com eles", diz Keltner. Além disso, os emoticons deveriam representar as mesmas emoções em todas as culturas em todas as partes do mundo. Para complicar ainda mais, a equipe de produtos do Facebook limitou a quantidade de emoticons para o Reactions.
 
@@ -61,7 +61,7 @@ Sammi Krug, gerente de produtos do Facebook, foi quem atribuiu a Keltner seu pri
 
 Definidos os emoticons, partiu-se então para testes A/B de usabilidade.
 
-O Facebook recorreu a  [Optimizely][optimizely], empresa especializada em testes de usabilidade. "Testar é fundamental quando se quer se empático. Trata-se de oferecer a experiência que seus usuários querem ter - não a experiência que você acha que eles devem ter", diz Wyatt Jenkins, VP da Optimizely.
+O Facebook recorreu a  [Optimizely][optimizely], empresa especializada em testes de usabilidade. "Testar é fundamental quando se quer ser empático. Trata-se de oferecer a experiência que seus usuários querem ter - não a experiência que você acha que eles devem ter", diz Wyatt Jenkins, VP da Optimizely.
 
 Os sete países escolhidos para os testes foram Espanha, Irlanda, Chile, Portugal, Filipinas, Japão e Colombia. Segundo Krug, esses países possuem uma grande diversidade cultural e de linguagem. Durante os meses em que foram testados identificou-se, por exemplo, que o emoticon 'Yay' não seria adicionado ao Reactions, pois a expressão que em alguns países é relacionado a grande felicidade, não era reconhecido  ou utilizado de forma correta por usuários em outras localidades.
 
