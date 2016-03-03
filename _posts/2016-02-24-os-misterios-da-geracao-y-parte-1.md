@@ -3,7 +3,7 @@ layout: post
 title:  "Os Mistérios da Geração Y – Parte 1"
 subtitle: "Um pouco da minha experiência liderando um time 100% Geração Y de alta performance."
 date:   2016-02-26 00:00:00 -0300
-categories: destque inovacao lideranca empreendedorismo
+categories: destaque inovacao lideranca empreendedorismo
 categories-pretty: [destaquedestaque, inovaçãoinovacao, liderançalideranca, empreendedorismoempreendedorismo]
 image-type: .jpeg
 tags: [Geração Y, Líder]

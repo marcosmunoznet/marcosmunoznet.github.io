@@ -3,7 +3,7 @@ layout: post
 title:  "Empreendedor a Todo Vapor"
 subtitle: "Minha entrevista para o Podcast Empreendedor a Todo Vapor"
 date:   2016-01-15 00:02:14 -0200
-categories: destaque empreendedorismo
+categories: empreendedorismo
 image-type: .jpg
 tags: Entrevista
 author: Marcos Munoz

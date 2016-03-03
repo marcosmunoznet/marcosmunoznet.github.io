@@ -323,7 +323,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 body {
-    font-family: "Playfair Display", serif;
+    font-family: "PT Sans Narrow",sans-serif;
     font-size: 18px;
     line-height: 1.42857143;
     color: #333;
@@ -6262,7 +6262,7 @@ a:active {
 span.entry-title-primary {
     text-shadow: #000 1px 1px;
 }
-@media (max-width: 450px) {
+@media (max-width: 620px) {
     span.entry-title-primary {
         color: #000;
         text-shadow: #fff 0 0;
@@ -6276,13 +6276,16 @@ span.entry-subtitle {
     text-transform: none;
     line-height: 25px;
 }
-@media (max-width: 450px) {
+@media (max-width: 620px) {
     span.entry-subtitle {
-        color: #000;
-        text-shadow: #fff 0 0;
-        font-weight: normal;
-    }
+    color: #000;
+    text-shadow: #fff 0 0;
+    font-weight: normal;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
 }
+
 .page-title {
     font-family: "PT Sans Narrow", sans-serif;
     text-transform: uppercase;
@@ -6395,7 +6398,7 @@ span.entry-subtitle {
 .has-post-thumbnail .entry-meta a {
     color: #FFF
 }
-@media (max-width: 450px) {
+@media (max-width: 620px) {
     .has-post-thumbnail .entry-meta .meta-item,
     .has-post-thumbnail .entry-meta span,
     .has-post-thumbnail .entry-meta a {
@@ -6775,7 +6778,7 @@ span.entry-subtitle {
     font-size: 22px;
     text-transform: uppercase;
     line-height: 32px;
-    margin-top: -8px
+    margin-bottom: 20px
 }
 @media(max-width:450px) {
     .widget-title {
@@ -6788,6 +6791,12 @@ span.entry-subtitle {
     text-transform: uppercase;
     line-height: 32px;
     margin-top: -8px
+}
+.widget-content {
+    background: rgba(226, 226, 226, 0.4);
+    padding: 16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 .widget_recent_entries a {
     margin-left: 20px;
@@ -7007,6 +7016,15 @@ span.entry-subtitle {
     margin: 0 -10px 0 0 !important;
     padding: 0 !important;
 }
+@media (max-width: 450px) {
+  .entry-footer ul.related-post {
+    display: inline-block !important;
+    position: relative !important;
+    margin: 0 -10px 0 0 !important;
+    padding: 0 !important;
+    text-align: center;
+  }
+}
 .entry-footer ul.related-post li {
     position: relative !important;
     display: inline-block !important;
@@ -7014,9 +7032,11 @@ span.entry-subtitle {
     zoom: 1 !important;
     *display: inline !important;
     width: 150px !important;
-    margin: 10px 10px 10px 0 !important;
-    padding: 0 !important;
-    background: none !important
+    margin: 5px 5px 5px 0 !important;
+    padding: 10px !important;
+    background: rgba(226, 226, 226, 0.4);
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 .entry-footer ul.related-post li a {
     position: relative !important;
@@ -8358,7 +8378,7 @@ screen and (max-height: 300px) {
     .comments-area,
     .smr-prev-next,
     .smr-author-box {
-        padding: 0 30px
+        padding: 0 30px;
     }
     .smr-post.has-post-thumbnail .entry-header {
         padding: 0 30px 20px 30px
@@ -8581,7 +8601,7 @@ screen and (max-height: 300px) {
         margin-bottom: 0
     }
     .post-categories {
-        margin-bottom: 0
+        margin-bottom: 20px;
     }
     .post-categories a {
         font-size: 13px
@@ -8650,13 +8670,15 @@ screen and (max-height: 300px) {
   font-family: "PT Sans Narrow",sans-serif;
   margin-bottom: 20px;
   padding: 0 80px;
+  float: left;
+  width: 100%;
 }
 @media(max-width:1199px) {
   .inline-btn{
     padding: 0 30px;
   }
 }
-@media(max-width:450px) {
+@media(max-width:620px) {
   .inline-btn{
     padding: 0;
   }
