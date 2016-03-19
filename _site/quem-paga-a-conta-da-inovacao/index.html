@@ -31,8 +31,7 @@
   <meta property="og:image:width" content="200">
   <meta property="og:image:height" content="200">
 
-  <link type="text/css" media="all" href="/assets/css/main.css" rel="stylesheet" />
-  <link rel="stylesheet" href=>
+  <style></style>
   <link rel="canonical" href="http://marcosmunoz.net/quem-paga-a-conta-da-inovacao/">
   <link rel="alternate" type="application/rss+xml" title="Marcos Munoz" href="http://marcosmunoz.net/feed.xml">
   <link rel="shortcut icon" href="http://marcosmunoz.net/assets/img/fav/favicon.ico" type="image/x-icon">
@@ -382,9 +381,19 @@ MOORE, G. Crossing the Chasm: Marketing and Selling High-Tech Products to Mainst
    </div>
 </footer>
 <script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/lunr.min.js"></script>
 <script src="/assets/js/search.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = "/assets/css/main.css";
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+    </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -11,9 +11,19 @@
    </div>
 </footer>
 <script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/lunr.min.js"></script>
 <script src="/assets/js/search.js"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = "{{ "/assets/css/main.css" | prepend: site.baseurl }}";
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+    </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
