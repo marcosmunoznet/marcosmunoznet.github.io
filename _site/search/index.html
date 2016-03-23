@@ -90,55 +90,6 @@
      <div id="site_search" class="smr-search-form">
   <input id="search_box" name="s" class="smr-search-input" type="text" placeholder="Escreva aqui para pesquisar…" autocomplete="off" />
 </div>
-<script>
-jQuery(function() {
-  window.idx = lunr(function () {
-    this.field('id');
-    this.field('title');
-    this.field('author');
-    this.field('categories');
-    this.field('tags');
-    this.field('subtitle');
-  });
-
-  window.data = $.getJSON('/search_data.json');
-
-  window.data.then(function(loaded_data){
-    $.each(loaded_data, function(index, value){
-      window.idx.add(
-        $.extend({ "id": index }, value)
-      );
-    });
-  });
-
-  $("#search_box").keyup(function(){
-      event.preventDefault();
-      var query = $("#search_box").val();
-      var results = window.idx.search(query);
-      display_search_results(results);
-  });
-
-  function display_search_results(results) {
-    var $search_results = $("#search_results");
-
-    window.data.then(function(loaded_data) {
-
-      if (results.length) {
-        $search_results.empty();
-
-        results.forEach(function(result) {
-          var item = loaded_data[result.ref];
-
-          var appendString = '<li><img alt="' + item.title + '" src="' + item.thumb+item.image+item.type + '" class="avatar" style="border-radius: 5%;" width="150" /><a href="' + item.url + '" class="tags-link">' + item.title + '</a></li>'
-          $search_results.append(appendString);
-        });
-      } else {
-        $search_results.html('<li>Não encontramos artigos relacionados à pesquisa. :(</li>');
-      }
-    });
-  }
-});
-</script>
 
      <ul id="search_results" class="post-list"></ul>
    </main>
@@ -205,7 +156,9 @@ jQuery(function() {
 
     </div>
 
-    <footer id="footer" class="site-footer" role="contentinfo">
+  </body>
+
+  <footer id="footer" class="site-footer" role="contentinfo">
    <div class="container">
       <div class="col-lg-12">
          <div class="site-info"> Copyright &copy; 2016. Criado por <a href="http://iluvsolutions.com" target="_blank">I Luv Solutions</a>. </div>
@@ -219,17 +172,8 @@ jQuery(function() {
 </footer>
 <script async src="/assets/js/jquery.min.js"></script>
 <script async src='https://www.google.com/recaptcha/api.js'></script>
-<script>
-      var cb = function() {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = "/assets/css/main.css";
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-      else window.addEventListener('load', cb);
-    </script>
+
+  
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -238,10 +182,7 @@ jQuery(function() {
 
   ga('create', 'UA-66712480-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
-
-  </body>
 
 </html>
