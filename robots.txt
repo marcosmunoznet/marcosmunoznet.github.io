@@ -1,0 +1,16 @@
+---
+layout: null
+title: "Robots.txt"
+permalink: /robots.txt
+description: "Robots.txt"
+sitemap:
+  lastmod: 2016-03-23
+  priority: 0.1
+  changefreq: 'monthly'
+  exclude: 'yes'
+---
+# www.robotstxt.org/
+# https://support.google.com/webmasters/answer/6062608?hl=en&rd=1
+
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml
