@@ -31,7 +31,6 @@
   <meta property="og:image:width" content="200">
   <meta property="og:image:height" content="200">
 
-  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   <link rel="canonical" href="http://marcosmunoz.net/search/">
   <link rel="alternate" type="application/rss+xml" title="Marcos Munoz" href="http://marcosmunoz.net/feed.xml">
   <link rel="shortcut icon" href="http://marcosmunoz.net/assets/img/fav/favicon.ico" type="image/x-icon">
@@ -59,7 +58,7 @@
   <div class="col-lg-12 col-sm-12 col-xs-12">
      <div class="site-branding">
         <h1 class="site-title h1"><a href="http://marcosmunoz.net/" rel="home">Marcos Munoz</a></h1>
-        <p class="site-description">Criatividade | Inovação | Empreendedorismo</p>
+        <p class="site-description">Marketing | Inovação | Empreendedorismo</p>
      </div>
      <div class="site-navigation-wrapper">
         <div id="smr-nav-social-wrap" class="smr-nav-social-wrap">
@@ -183,6 +182,17 @@
   ga('create', 'UA-66712480-1', 'auto');
   ga('send', 'pageview');
 </script>
+<script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = '/assets/css/main.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+    </script>
 
 
 </html>
