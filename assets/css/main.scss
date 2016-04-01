@@ -5833,6 +5833,15 @@ a:active {
     text-align: center;
     float: left;
 }
+@media(max-width:991px) {
+    .main-navigation {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        float: left;
+    }
+}
 .main-navigation>ul {
     list-style: none;
     margin: 0;
