@@ -9,15 +9,11 @@
   ga('send', 'pageview');
 </script>
 <script>
-  document.onreadystatechange = () => {
-  if (document.readyState === 'complete') {
-    document.body.setAttribute('class', 'blog')
-  }
-};
   var cb = function() {
     var l = document.createElement('link'); l.rel = 'stylesheet';
     l.href = '{{ "/assets/css/main.css" | prepend: site.baseurl }}';
     var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+    document.body.setAttribute('class', 'blog')
   };
   var raf = requestAnimationFrame || mozRequestAnimationFrame ||
       webkitRequestAnimationFrame || msRequestAnimationFrame;
