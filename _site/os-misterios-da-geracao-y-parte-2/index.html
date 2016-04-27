@@ -48,6 +48,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="http://marcosmunoz.net/assets/img/fav/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="http://marcosmunoz.net/assets/img/fav/favicon-16x16.png">
   <link rel="manifest" href="http://marcosmunoz.net/assets/img/fav/manifest.json">
+  <link rel="Publisher" href="https://plus.google.com/b/107997911579973079940/">
   <style type="text/css">.lazyload{display:none !important}</style>
 </head>
 
@@ -282,8 +283,8 @@ abril
        <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = marcosmunoz; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = "http://marcosmunoz.net/os-misterios-da-geracao-y-parte-2/";
+        this.page.identifier = "/os-misterios-da-geracao-y-parte-2/";
     };
 
     (function() {  // DON'T EDIT BELOW THIS LINE
@@ -399,18 +400,22 @@ abril
   ga('send', 'pageview');
 </script>
 <script>
-      var cb = function() {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = '/assets/css/main.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-        document.body.setAttribute('class', 'blog')
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) {
-        raf(cb);
-      }
-      else window.addEventListener('load', cb);
+  document.onreadystatechange = () => {
+  if (document.readyState === 'complete') {
+    document.body.setAttribute('class', 'blog')
+  }
+};
+  var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = '/assets/css/main.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+  };
+  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+  if (raf) {
+    raf(cb);
+  }
+    else window.addEventListener('load', cb);
 </script>
 
 
