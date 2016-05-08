@@ -4,7 +4,7 @@ title:  "5 coisas para aprender com Suits"
 subtitle: "O que podemos aprender com Suits e aplicar em nossas empresas."
 date:   2016-02-17 00:00:00 -0300
 categories: destaque criatividade empreendedorismo
-image-type: .jpeg
+image-type: .jpg
 tags: [Cultura, Líder, Seriado, Suits, Valores]
 author: Marcos Munoz
 comments: true

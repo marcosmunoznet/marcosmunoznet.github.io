@@ -5,7 +5,7 @@ subtitle: "Como o 'Reactions', novos botões do Facebook, pode mudar a forma com
 date:   2016-03-02 00:00:00 -0300
 categories: destaque inovacao criatividade
 categories-pretty: [destaquedestaque, inovaçãoinovacao, criatividadecriatividade]
-image-type: .jpeg
+image-type: .jpg
 tags: [Facebook, Design Thinking, Reactions]
 author: Marcos Munoz
 comments: true

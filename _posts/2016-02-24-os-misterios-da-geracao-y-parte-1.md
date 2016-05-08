@@ -5,7 +5,7 @@ subtitle: "Um pouco da minha experiência liderando um time 100% Geração Y de 
 date:   2016-02-26 00:00:00 -0300
 categories: destaque inovacao lideranca empreendedorismo
 categories-pretty: [destaquedestaque, inovaçãoinovacao, liderançalideranca, empreendedorismoempreendedorismo]
-image-type: .jpeg
+image-type: .jpg
 tags: [Geração Y, Líder]
 author: Marcos Munoz
 comments: true

@@ -5,7 +5,7 @@ subtitle: "Quais são as principais diferenças entre a Geração X e a Geraçã
 date:   2016-04-05 00:00:00 -0300
 categories: destaque inovacao lideranca empreendedorismo
 categories-pretty: [destaquedestaque, inovaçãoinovacao, liderançalideranca, empreendedorismoempreendedorismo]
-image-type: .jpeg
+image-type: .jpg
 tags: [Geração Y, Líder]
 author: Marcos Munoz
 comments: true
