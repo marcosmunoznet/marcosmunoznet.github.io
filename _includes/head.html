@@ -7,11 +7,11 @@
   <meta name="description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   {% if page.subtitle %}<meta name="twitter:description" content="{{ page.subtitle | strip_html }}">{% endif %}
-  {% if author.twitter %}<meta name="twitter:site" content="@{{ author.twitter }}">{% endif %}
-  {% if author.twitter %}<meta name="twitter:creator" content="@{{ author.twitter }}">{% endif %}
+  {% if site.author.twitter %}<meta name="twitter:site" content="@{{ site.author.twitter }}">{% endif %}
+  {% if site.author.twitter %}<meta name="twitter:creator" content="@{{ site.author.twitter }}">{% endif %}
   <meta name="twitter:card" content="summary_large_image">
   {% if page.image-type %}
-  <meta name="twitter:image" content="{{ site.featured_image }}{{ page.url | prepend: site.baseurl | slugify }}{{ page.image-type}}">
+  <meta name="twitter:image" content="{{ site.url }}{{ site.featured_image }}{{ page.url | prepend: site.baseurl | slugify }}{{ page.image-type}}">
   {% else %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.image }}">
   {% endif %}

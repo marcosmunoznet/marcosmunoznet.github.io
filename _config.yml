@@ -12,6 +12,7 @@ description: "Um blog com dicas, insights, estudos e histórias sobre marketing,
 url: "http://marcosmunoz.net"
 locale: pt_br
 image: /assets/img/blog-logo.png
+
 # Author Settings
 author:
     name: Marcos Munoz
@@ -40,3 +41,7 @@ featured_image:  "/assets/img/posts/featured/" # Caminho das imagens
 thumb_image:  "/assets/img/posts/thumb/" # Caminho das imagens
 sass:
     style: compressed # Configuração dos arquivos css gerados pelo sass, compressed gera o css minificado
+
+# Handling Reading
+safe:         false
+exclude:      ["node_modules", "Gruntfile.js", "package.json"]

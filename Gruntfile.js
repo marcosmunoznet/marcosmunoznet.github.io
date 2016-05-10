@@ -98,9 +98,12 @@ module.exports = function(grunt) {
         removeComments: true,
         collapseWhitespace: true
       },
-      files: {                                   // Dictionary of files
-        './_site/index.html': './_site/index.html'
-      }
+      files: [{
+                expand: true,
+                cwd: '_site/',
+                src: '**/*.html',
+                dest: '_site/'
+            }]
     },
   }
 });
@@ -111,6 +114,6 @@ grunt.loadNpmTasks('grunt-contrib-clean');
 grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
   // Default task(s).
-  grunt.registerTask('default', ['imagemin', 'clean','htmlmin']);
+  grunt.registerTask('default', ['clean','htmlmin']); //'imagemin', 'clean',
 
 };
