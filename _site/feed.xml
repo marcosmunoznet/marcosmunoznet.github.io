@@ -5,9 +5,35 @@
     <description>Um blog com dicas, insights, estudos e histórias sobre marketing, inovação e empreendedorismo. Conteúdo para quem quer transformar ideias em novos negócios.</description>
     <link>http://marcosmunoz.net/</link>
     <atom:link href="http://marcosmunoz.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 May 2016 22:17:55 -0300</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 22:17:55 -0300</lastBuildDate>
+    <pubDate>Wed, 11 May 2016 01:14:04 -0300</pubDate>
+    <lastBuildDate>Wed, 11 May 2016 01:14:04 -0300</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Meu Primeiro Vídeo para Internet</title>
+        <description>&lt;p&gt;Já havia algum tempo que eu pensava em gravar vídeos para internet. Desde meu primeiro post, deixei claro a importância de se criar conteúdo relevante, a fim de construir uma boa presença digital.&lt;/p&gt;
+
+&lt;p&gt;Esse foi meu primeiro vídeo. Na verdade é apenas um teste onde pude aprender na prática que gravar um vídeo de qualidade não é fácil. Precisa-se estar atento à iluminação, som, enquadramento e isso é só o começo. Para um primeiro vídeo, acho que ficou bom. :)&lt;/p&gt;
+
+&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe class=&quot;embed-responsive-item&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sDeZdWOOvgA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;E você, o que achou?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Apr 2016 00:00:00 -0300</pubDate>
+        <link>http://marcosmunoz.net/meu-primeiro-video-para-internet/</link>
+        <guid isPermaLink="true">http://marcosmunoz.net/meu-primeiro-video-para-internet/</guid>
+        
+        <category>Vídeo</category>
+        
+        <category>Youtube</category>
+        
+        
+        <category>destaque</category>
+        
+      </item>
     
       <item>
         <title>Os Mistérios da Geração Y – Parte 2</title>

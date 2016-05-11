@@ -114,6 +114,6 @@ grunt.loadNpmTasks('grunt-contrib-clean');
 grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
   // Default task(s).
-  grunt.registerTask('default', ['clean','htmlmin']); //'imagemin', 'clean',
+  grunt.registerTask('default', ['imagemin', 'clean','htmlmin']); //'imagemin', 'clean',
 
 };

@@ -1806,6 +1806,7 @@ span.entry-subtitle {
   width: 100%;
   display: block;
   position: relative;
+  min-height: 452px;
 }
 
 .entry-header-wrapper {
@@ -2195,6 +2196,10 @@ span.entry-subtitle {
     float: left;
     text-align: left;
   }
+
+  .post-thumbnail {
+    min-height: 352px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -2232,6 +2237,10 @@ span.entry-subtitle {
   .site-header .col-lg-12 {
     float: left;
     padding: 0 25px;
+  }
+
+  .post-thumbnail {
+    min-height: 352px;
   }
 }
 
@@ -2283,6 +2292,7 @@ span.entry-subtitle {
 
   .post-thumbnail {
     margin-bottom: 20px;
+    min-height: 452px
   }
 
   .smr-post {
@@ -2420,6 +2430,7 @@ span.entry-subtitle {
 
   .post-thumbnail {
     margin-bottom: 10px;
+    min-height: 152px
   }
 
   .entry-meta .meta-item {

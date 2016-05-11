@@ -43,5 +43,5 @@ sass:
     style: compressed # Configuração dos arquivos css gerados pelo sass, compressed gera o css minificado
 
 # Handling Reading
-safe:         false
-exclude:      ["node_modules", "Gruntfile.js", "package.json"]
+safe: false
+exclude: ["node_modules", "Gruntfile.js", "package.json"]

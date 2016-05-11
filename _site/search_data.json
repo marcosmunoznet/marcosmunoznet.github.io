@@ -1,6 +1,20 @@
 {
   
 
+    "meu-primeiro-video-para-internet": {
+      "title": "Meu Primeiro Vídeo para Internet",
+      "url": " /meu-primeiro-video-para-internet/",
+      "thumb": "/assets/img/posts/thumb/",
+      "image": "meu-primeiro-video-para-internet",
+      "type": ".png",
+      "author": "Marcos Munoz",
+      "categories": "destaque",
+      "tags": "Vídeo and Youtube",
+      "subtitle": "Gravei meu primeiro vídeo para a internet. Parece fácil, mas é muito difícil."
+    }
+    ,
+  
+
     "os-misterios-da-geracao-y-parte-2": {
       "title": "Os Mistérios da Geração Y – Parte 2",
       "url": " /os-misterios-da-geracao-y-parte-2/",
