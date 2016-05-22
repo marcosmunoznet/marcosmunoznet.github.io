@@ -14,10 +14,10 @@ module.exports = function(grunt) {
                 // Set to true to enable the following options…
                 expand: true,
                 // cwd is 'current working directory'
-                cwd: './_site/assets/img/posts/featured/',
+                cwd: './_site/assets/img/',
                 src: ['**/*.png'],
                 // Could also match cwd line above. i.e. project-directory/img/
-                dest: './_site/assets/img/posts/featured/',
+                dest: './_site/assets/img/',
                 flatten: false,
                 ext: '.png'
             },
@@ -25,21 +25,10 @@ module.exports = function(grunt) {
                 // Set to true to enable the following options…
                 expand: true,
                 // cwd is 'current working directory'
-                cwd: './_site/assets/img/posts/content/',
+                cwd: './assets/img/',
                 src: ['**/*.png'],
                 // Could also match cwd line above. i.e. project-directory/img/
-                dest: './_site/assets/img/posts/content/',
-                flatten: false,
-                ext: '.png'
-            },
-            {
-                // Set to true to enable the following options…
-                expand: true,
-                // cwd is 'current working directory'
-                cwd: './_site/assets/img/posts/thumb/',
-                src: ['**/*.png'],
-                // Could also match cwd line above. i.e. project-directory/img/
-                dest: './_site/assets/img/posts/thumb/',
+                dest: './_site/assets/img/',
                 flatten: false,
                 ext: '.png'
             }
@@ -54,10 +43,10 @@ module.exports = function(grunt) {
                 // Set to true to enable the following options…
                 expand: true,
                 // cwd is 'current working directory'
-                cwd: './_site/assets/img/posts/featured/',
+                cwd: './_site/assets/img/',
                 src: ['**/*.jpg', '**/*.jpeg'],
                 // Could also match cwd. i.e. project-directory/img/
-                dest: './_site/assets/img/posts/featured/',
+                dest: './_site/assets/img/',
                 flatten: false,
                 ext: '.jpg'
             },
@@ -65,54 +54,10 @@ module.exports = function(grunt) {
                 // Set to true to enable the following options…
                 expand: true,
                 // cwd is 'current working directory'
-                cwd: './_site/assets/img/posts/content/',
+                cwd: './assets/img/',
                 src: ['**/*.jpg', '**/*.jpeg'],
                 // Could also match cwd. i.e. project-directory/img/
-                dest: './_site/assets/img/posts/content/',
-                flatten: false,
-                ext: '.jpg'
-            },
-            {
-                // Set to true to enable the following options…
-                expand: true,
-                // cwd is 'current working directory'
-                cwd: './_site/assets/img/posts/thumb/',
-                src: ['**/*.jpg', '**/*.jpeg'],
-                // Could also match cwd. i.e. project-directory/img/
-                dest: './_site/assets/img/posts/thumb/',
-                flatten: false,
-                ext: '.jpg'
-            },
-            {
-                // Set to true to enable the following options…
-                expand: true,
-                // cwd is 'current working directory'
-                cwd: './assets/img/posts/featured/',
-                src: ['**/*.jpg', '**/*.jpeg'],
-                // Could also match cwd. i.e. project-directory/img/
-                dest: './assets/img/posts/featured/',
-                flatten: false,
-                ext: '.jpg'
-            },
-            {
-                // Set to true to enable the following options…
-                expand: true,
-                // cwd is 'current working directory'
-                cwd: './assets/img/posts/content/',
-                src: ['**/*.jpg', '**/*.jpeg'],
-                // Could also match cwd. i.e. project-directory/img/
-                dest: './assets/img/posts/content/',
-                flatten: false,
-                ext: '.jpg'
-            },
-            {
-                // Set to true to enable the following options…
-                expand: true,
-                // cwd is 'current working directory'
-                cwd: './assets/img/posts/thumb/',
-                src: ['**/*.jpg', '**/*.jpeg'],
-                // Could also match cwd. i.e. project-directory/img/
-                dest: './assets/img/posts/thumb/',
+                dest: './assets/img/',
                 flatten: false,
                 ext: '.jpg'
             }
@@ -124,9 +69,11 @@ module.exports = function(grunt) {
     jpeg: ['./_site/assets/img/posts/featured/*.jpeg',
           './_site/assets/img/posts/content/*.jpeg',
           './_site/assets/img/posts/thumb/*.jpeg',
+          './_site/assets/img/*.jpeg',
           './assets/img/posts/featured/*.jpeg',
           './assets/img/posts/content/*.jpeg',
-          './assets/img/posts/thumb/*.jpeg'],
+          './assets/img/posts/thumb/*.jpeg',
+          './assets/img/*.jpeg'],
     node_modules: ['./_site/node_modules']
   },
   htmlmin: {                                     // Task
