@@ -2,7 +2,7 @@
   <div class="related-posts-content">
     <h3>Posts Relacionados</h3>
     <ul class="related-post">
-      {% for post in site.related_posts %}
+      {% for post in site.related_posts limit:8%}
       <li>
         <a href="{{ post.url }}">
           <img src="{{ site.thumb_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" alt="{{ post.title }}" width="150">

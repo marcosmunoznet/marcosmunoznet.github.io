@@ -82,14 +82,51 @@ module.exports = function(grunt) {
                 dest: './_site/assets/img/posts/thumb/',
                 flatten: false,
                 ext: '.jpg'
+            },
+            {
+                // Set to true to enable the following options…
+                expand: true,
+                // cwd is 'current working directory'
+                cwd: './assets/img/posts/featured/',
+                src: ['**/*.jpg', '**/*.jpeg'],
+                // Could also match cwd. i.e. project-directory/img/
+                dest: './assets/img/posts/featured/',
+                flatten: false,
+                ext: '.jpg'
+            },
+            {
+                // Set to true to enable the following options…
+                expand: true,
+                // cwd is 'current working directory'
+                cwd: './assets/img/posts/content/',
+                src: ['**/*.jpg', '**/*.jpeg'],
+                // Could also match cwd. i.e. project-directory/img/
+                dest: './assets/img/posts/content/',
+                flatten: false,
+                ext: '.jpg'
+            },
+            {
+                // Set to true to enable the following options…
+                expand: true,
+                // cwd is 'current working directory'
+                cwd: './assets/img/posts/thumb/',
+                src: ['**/*.jpg', '**/*.jpeg'],
+                // Could also match cwd. i.e. project-directory/img/
+                dest: './assets/img/posts/thumb/',
+                flatten: false,
+                ext: '.jpg'
             }
+
         ]
     }
   },
   clean: {
     jpeg: ['./_site/assets/img/posts/featured/*.jpeg',
           './_site/assets/img/posts/content/*.jpeg',
-          './_site/assets/img/posts/thumb/*.jpeg'],
+          './_site/assets/img/posts/thumb/*.jpeg',
+          './assets/img/posts/featured/*.jpeg',
+          './assets/img/posts/content/*.jpeg',
+          './assets/img/posts/thumb/*.jpeg'],
     node_modules: ['./_site/node_modules']
   },
   htmlmin: {                                     // Task

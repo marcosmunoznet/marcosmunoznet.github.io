@@ -2,7 +2,7 @@
   <div class="entry-header-wrapper">
     <figure class="post-thumbnail">
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <img width="805" src="{{ site.featured_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" alt="{{ post.title }}" sizes="(max-width: 805px) 100vw, 805px" />
+        <img src="{{ site.featured_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" alt="{{ post.title }}"/>
       </a>
     </figure>
     <header class="entry-header">

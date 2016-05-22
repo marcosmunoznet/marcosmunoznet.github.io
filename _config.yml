@@ -16,7 +16,8 @@ image: /assets/img/blog-logo.png
 # Author Settings
 author:
     name: Marcos Munoz
-    img: /assets/img/logo.png # Imagem do Autor
+    img: /assets/img/logo.png
+    snapcode: /assets/img/snapcode.png
     blog: http://marcosmunoz.net
     email: marcos@iluvsolutions.com
     twitter: marcosmunoznet
@@ -27,6 +28,7 @@ author:
     github:  marcosmunoznet
     blog: marcosmunoznet
     bio: Consultor de TI, empreendedor e design thinker. Formado em Sistemas de Informação pela FIAP e MBA em Gestão de Empresas e Marketing pela Business School São Paulo.
+
 
 # Build settings
 markdown: kramdown
