@@ -5,7 +5,7 @@
       {% for post in site.related_posts limit:8%}
       <li>
         <a href="{{ post.url }}">
-          <img src="{{ site.thumb_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" alt="{{ post.title }}" width="150">
+          <img src="{{ site.thumb_image }}{{ post.url | prepend: site.baseurl | slugify }}{{ post.image-type}}" alt="{{ post.title }}" title="{{ post.title }}" width="150">
         </a>
         <a href="{{ post.url }}" class="related-post-title">{{ post.title }}</a>
       </li>

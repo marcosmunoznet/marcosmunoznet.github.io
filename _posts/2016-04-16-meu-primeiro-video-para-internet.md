@@ -3,8 +3,8 @@ layout: post
 title:  "Meu Primeiro Vídeo para Internet"
 subtitle: "Gravei meu primeiro vídeo para a internet. Parece fácil, mas é muito difícil."
 date:   2016-04-16 00:00:00 -0300
-categories: destaque
-categories-pretty: [destaquedestaque]
+categories: youtube
+categories-pretty: [youtubeyoutube]
 image-type: .png
 tags: [Vídeo, Youtube]
 author: Marcos Munoz

@@ -7,7 +7,7 @@ layout: default
        <div class="entry-header-wrapper">
          <figure class="post-thumbnail">
            <a href="{{ page.url | prepend: site.baseurl }}">
-             <img width="805" src="{{ site.featured_image }}{{ page.url | prepend: site.baseurl | slugify }}{{ page.image-type}}" alt="{{ page.title }}"/>
+             <img width="805" src="{{ site.featured_image }}{{ page.url | prepend: site.baseurl | slugify }}{{ page.image-type}}" alt="{{ page.title }}" title="{{ page.title }}"/>
            </a>
          </figure>
          <header class="entry-header">

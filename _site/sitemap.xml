@@ -156,7 +156,7 @@
     <url>
       <loc>http://marcosmunoz.net/about/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +171,7 @@
     <url>
       <loc>http://marcosmunoz.net/contact/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,7 +186,7 @@
     <url>
       <loc>http://marcosmunoz.net/category/criatividade/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -201,7 +201,7 @@
     <url>
       <loc>http://marcosmunoz.net/category/destaque/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -216,7 +216,7 @@
     <url>
       <loc>http://marcosmunoz.net/category/empreendedorismo/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -231,7 +231,7 @@
     <url>
       <loc>http://marcosmunoz.net/feed.xml</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -246,7 +246,7 @@
     <url>
       <loc>http://marcosmunoz.net/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -261,7 +261,7 @@
     <url>
       <loc>http://marcosmunoz.net/category/inovacao/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -276,7 +276,7 @@
     <url>
       <loc>http://marcosmunoz.net/category/lideranca/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -293,7 +293,7 @@
     <url>
       <loc>http://marcosmunoz.net/assets/css/main.css</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -308,7 +308,7 @@
     <url>
       <loc>http://marcosmunoz.net/category/marketing/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -325,7 +325,7 @@
     <url>
       <loc>http://marcosmunoz.net/search/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -340,7 +340,7 @@
     <url>
       <loc>http://marcosmunoz.net/search_data.json</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -357,7 +357,22 @@
     <url>
       <loc>http://marcosmunoz.net/tags/</loc>
       
-        <lastmod>2016-05-22T19:42:20-03:00</lastmod>
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://marcosmunoz.net/category/youtube/</loc>
+      
+        <lastmod>2016-05-24T00:58:39-03:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
