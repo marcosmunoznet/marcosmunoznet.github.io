@@ -16,16 +16,3 @@
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6&appId=485354908317817";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script>
-  var cb = function() {
-    var l = document.createElement('link'); l.rel = 'stylesheet';
-    l.href = '{{ "/assets/css/style.css" | prepend: site.baseurl }}';
-    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-  };
-  var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-      webkitRequestAnimationFrame || msRequestAnimationFrame;
-  if (raf) {
-    raf(cb);
-  }
-    else window.addEventListener('load', cb);
-</script>
