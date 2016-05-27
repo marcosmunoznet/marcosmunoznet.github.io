@@ -30,7 +30,7 @@ Um desafio pode ser algo complexo como criar um produto ou algo simples como con
 
 
 ### ERRAR É NECESSÁRIO
-Se estamos tratando de inovação estamos falando necessariamente de erros e acertos. Não existe inovação sem experimentos e, mais uma vez, estamos falando de erros. Santos Dumont erro 13 vezes antes de criar a máquina que o levou a sobrevoar os céus de Bagatelle, o 14-bis, e errou tantas outras vezes em suas invenções quanto foram necessárias.
+Se estamos tratando de inovação estamos falando necessariamente de erros e acertos. Não existe inovação sem experimentos e, mais uma vez, estamos falando de erros. Santos Dumont errou 13 vezes antes de criar a máquina que o levou a sobrevoar os céus de Bagatelle, o 14-bis, e errou tantas outras vezes em suas invenções quanto foram necessárias.
 
 O líder que não se permite errar e não permite que seus liderados errem sempre terá resultados iguais. A Geração Y trás uma nova visão de mundo. Um mundo conectado pela internet, dinâmico e de mudanças constantes. Não aproveitar as experiências e expectativas desta geração é um desperdício de tempo e dinheiro. Enquanto sua empresa se mantém nos habituais processos e burocracias, outras estão se adaptando a esse novo modo de pensar e fazendo mais com menos.
 

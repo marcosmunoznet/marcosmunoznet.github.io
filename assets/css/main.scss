@@ -5,7 +5,7 @@
 
 
 // Our variables
-$base-font-family: "Playfair Display", sans-serif;
+$base-font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -304,7 +304,7 @@ a:hover {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -405,7 +405,7 @@ html {
 }
 
 body {
-  font-family: "PT Sans Narrow",sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.42857143;
   color: #333;
@@ -461,7 +461,7 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: inherit;
@@ -1161,7 +1161,7 @@ body,html {
 }
 
 body {
-  font-family: "PT Sans Narrow",sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fff;
   color: #333;
   line-height: 30px;
@@ -1174,20 +1174,11 @@ body {
 }
 
 img {
-  height: 100%;
   max-width: 100%;
   border: 0;
   vertical-align: middle;
   border-radius: 1%;
   -ms-interpolation-mode: bicubic;
-}
-
-.site-header .site-title,.site-header .site-description,.main-navigation a,.entry-title,.entry-meta span,.entry-meta a,.post-categories a,.widget-title,.more-link,.meta-item,.site-footer,.smr-author-link,.post-date,.mks_autor_link_wrap a {
-  font-family: "PT Sans Narrow",sans-serif;
-}
-
-.mks_author_widget h3 {
-  font-family: "PT Sans Narrow", sans-serif;
 }
 
 p {
@@ -1718,7 +1709,13 @@ span.entry-subtitle {
     text-shadow: #fff 0 0;
     font-weight: normal;
     font-size: 17px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .site-header .site-description {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
   }
 }
 
@@ -1792,11 +1789,17 @@ span.entry-subtitle {
 
 .has-post-thumbnail .entry-meta .meta-item,.has-post-thumbnail .entry-meta span,.has-post-thumbnail .entry-meta a {
   color: #FFF;
+  background: rgb(138, 189, 210);
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 2px 5px 0 8px;
 }
 
 @media (max-width: 620px) {
   .has-post-thumbnail .entry-meta .meta-item,  .has-post-thumbnail .entry-meta span,  .has-post-thumbnail .entry-meta a {
-    color: #000;
+    /* color: #000; */
+    margin-bottom: 2px;
   }
 }
 
@@ -1859,7 +1862,7 @@ span.entry-subtitle {
   line-height: 30px;
   display: inline-block;
   border-radius: 20px;
-  padding: 0 16px;
+  padding: 2px 15px 0px 15px;
 }
 
 .post-categories a:hover {
@@ -1989,7 +1992,7 @@ span.entry-subtitle {
 }
 
 .widget-title a {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   line-height: 32px;
@@ -2118,7 +2121,7 @@ span.entry-subtitle {
 }
 
 .comments-title {
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   line-height: 32px;
@@ -2292,7 +2295,7 @@ span.entry-subtitle {
 
   .post-thumbnail {
     margin-bottom: 20px;
-    min-height: 452px
+    min-height: 250px
   }
 
   .smr-post {
@@ -2318,7 +2321,7 @@ span.entry-subtitle {
   }
 
   .site-header .site-title {
-    font-size: 36px;
+    font-size: 24px;
     max-width: 300px;
     display: inline-block;
   }
