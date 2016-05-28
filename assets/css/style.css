@@ -2220,12 +2220,6 @@ textarea.input-lg {
 body,html {
   height: 100%;
 }
-.site-header .site-title,.site-header .site-description,.main-navigation a,.entry-title,.entry-meta span,.entry-meta a,.post-categories a,.widget-title,.more-link,.meta-item,.smr-nav-search input,.site-footer,.smr-author-link,.entry-footer .meta-tags a,.post-date,html input[type="button"],input[type="reset"],input[type="submit"],.mks_autor_link_wrap a {
-  font-family: "PT Sans Narrow",sans-serif;
-}
-.smr-author-box h4,.mks_author_widget h3,.smr-nav-search .smr-search-input,input[type="text"],input[type="email"],input[type="url"],input[type="password"],textarea {
-  font-family: "PT Sans Narrow", sans-serif;
-}
 input[type="text"]::-ms-clear {
   display: none;
 }
@@ -2336,6 +2330,11 @@ input[type="radio"],input[type="checkbox"] {
 .comments-area,.smr-author-box {
   clear: both;
 }
+@media (max-width: 620px) {
+  .smr-author-box {
+    display: none;
+  }
+}
 .widget_search .search-submit {
   display: none;
 }
@@ -2384,6 +2383,7 @@ input[type="radio"],input[type="checkbox"] {
 }
 .entry-footer .related-posts {
   margin-top: 15px;
+  text-align: center;
 }
 .entry-footer div.related-posts-content {
   display: inline-block !important;
@@ -2436,6 +2436,11 @@ input[type="radio"],input[type="checkbox"] {
   float: none !important;
   border-radius: 3px !important;
   box-shadow: 0 1px 4px rgba(0,0,0,0.2) !important;
+}
+@media (max-width: 620px) {
+  .entry-footer ul.related-post li {
+    width: 45% !important;
+  }
 }
 .entry-footer .related-post-title {
   text-transform: uppercase;
@@ -2543,7 +2548,6 @@ html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:h
 .inline-btn {
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "PT Sans Narrow",sans-serif;
   margin-bottom: 20px;
   padding: 0 80px;
   float: left;
@@ -2585,7 +2589,6 @@ html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:h
   border: 2px solid rgba(16,19,36,0.69);
   text-transform: uppercase;
   font-size: 15px;
-  font-family: "PT Sans Narrow",sans-serif;
 }
 .tags a:before {
   content: "\f0f6";
@@ -2597,7 +2600,6 @@ html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:h
   border: 2px solid #ff5601;
 }
 .tags-link {
-  font-family: "PT Sans Narrow",sans-serif;
   font-size: 30px;
   margin-left: 15px;
   color: inherit;

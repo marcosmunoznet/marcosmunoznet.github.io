@@ -16,8 +16,8 @@ image: /assets/img/blog-logo.png
 # Author Settings
 author:
     name: Marcos Munoz
-    img: /assets/img/logo.png
-    snapcode: /assets/img/snapcode.png
+    img: /assets/img/logo.jpg
+    snapcode: /assets/img/snapcode.jpg
     blog: http://marcosmunoz.net
     email: marcos@iluvsolutions.com
     twitter: marcosmunoznet
