@@ -2,7 +2,7 @@
    <div id="mks_author_widget-4" class="widget mks_author_widget">
       <img title="Marcos Munoz - Marketing | Inovação | Empreendedorismo" alt="Marcos Munoz - Marketing | Inovação | Empreendedorismo" src="{{ site.author.snapcode }}" class="avatar"/>
       <h3>Marcos Munoz</h3>
-      <p>Consultor de TI, empreendedor e design thinker. Formado em Sistemas de Informação pela FIAP e MBA em Gestão de Empresas e Marketing pela Business School São Paulo.</p>
+      <p>Empreendedor, Mentor, Consultor e Design Thinker. Formado em Sistemas de Informação pela FIAP e MBA em Gestão de Empresas e Marketing pela Business School São Paulo.</p>
       <div class="mks_autor_link_wrap">
         <a href="" target="_blank" class="smr-author-link smr-website"><i class="fa fa fa-link"></i></a>
         <a href="https://www.facebook.com/marcosmunoznet" target="_blank" class="smr-author-link smr-website"><i class="fa fa fa-facebook"></i></a>
@@ -12,8 +12,21 @@
       </div>
    </div>
    <div id="shamrock_posts_widget-2" class="widget mks_author_widget">
-      <h4 class="widget-title"><span>Meus Vídeos</span></h4>
-      {% for featuredPost in site.categories.youtube limit:3 %}
+      <h4 class="widget-title"><span>Destaque</span></h4>
+      {% for featuredPost in site.categories.destaque limit:1 %}
+      <div class="widget-content">
+        <a href="{{ featuredPost.url | prepend: site.baseurl }}">
+          <img src="{{ site.thumb_image }}{{ featuredPost.url | prepend: site.baseurl | slugify }}{{ featuredPost.image-type}}" alt="{{ featuredPost.title }}" title="{{ featuredPost.title }}" class="avatar"/>
+        <h3>{{ featuredPost.title }}</h3>
+        <p>{{ featuredPost.subtitle }}</p>
+      </a>
+      </div>
+      <div class="clearfix"></div>
+      {% endfor %}
+   </div>
+   <div id="shamrock_posts_widget-2" class="widget mks_author_widget">
+      <h4 class="widget-title"><span>YouTube</span></h4>
+      {% for featuredPost in site.categories.youtube limit:1 %}
       <div class="widget-content">
         <a href="{{ featuredPost.url | prepend: site.baseurl }}">
           <img src="{{ site.thumb_image }}{{ featuredPost.url | prepend: site.baseurl | slugify }}{{ featuredPost.image-type}}" alt="{{ featuredPost.title }}" title="{{ featuredPost.title }}" class="avatar"/>

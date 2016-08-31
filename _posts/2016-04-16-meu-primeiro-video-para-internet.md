@@ -14,12 +14,6 @@ Já havia algum tempo que eu pensava em gravar vídeos para internet. Desde meu 
 
 Esse foi meu primeiro vídeo. Na verdade é apenas um teste onde pude aprender na prática que gravar um vídeo de qualidade não é fácil. Precisa-se estar atento à iluminação, som, enquadramento e isso é só o começo. Para um primeiro vídeo, acho que ficou bom. :)
 
-
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" width="560" height="315"
-    src="https://www.youtube.com/embed/sDeZdWOOvgA" frameborder="0"
-    allowfullscreen="">
-  </iframe>
-</div>
+{% youtube sDeZdWOOvgA %}
 
 E você, o que achou?
